@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# --- 우리 프로젝트를 위한 추가 항목 ---
+
+# API 서버가 생성하는 결과 이미지 등을 저장하는 폴더
+# 이 한 줄로 static 폴더와 그 안의 모든 내용이 제외됩니다.
+static/
+
+# 로컬 테스트 스크립트가 생성하는 결과물 폴더
+output_test/
+
+#모델
+models/
